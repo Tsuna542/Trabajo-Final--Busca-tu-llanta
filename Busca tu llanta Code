@@ -1,0 +1,1176 @@
+import os
+os.system("cls")
+
+#TIPOS DE BUSQUEDA
+print("Opciones")
+print("1. VEHÍCULO")
+print("2. MEDIDAS DE LLANTAS")
+
+while True:
+    n=int(input("¿Cómo le gustaría hacer la busqueda? "))
+    
+    #Búsqueda por vehiculos
+    
+    if n==1:
+        #Año de vehículo
+        while True:
+            a=int(input("Ingrese año del vehículo "))
+
+            #1.Año de vehículo 2020
+            if a==2020:
+                #MARCAS DE VEHÍCULOS
+                print("1. AICHI SAN")
+                print("2. ALFA ROMEO")
+                print("3. ASTON MARTIN")
+                print("4. KIA")
+                print("5. TOYOTA")
+                print("6. NISSAN")
+                while True:   
+                    m=int(input("Ingrese la marca de su vehículo "))
+                    
+                    #Primera marca del vehículo
+                    if m==1:
+                        #MODELOS
+                        print("MODELOS")
+                        print("1. HIACE")
+                        while True:
+                            n=int(input("Elija el modelo de su vehículo "))
+                            
+                            #Primer modelo
+                            if n==1:
+                                #VERSIONES
+                                print("VERSIÓN")
+                                print("1. HIACE 1.3 JUPTIER")
+                                print("2. HIACE 2.8 TDI VAN")
+
+                                while True:
+                                    m=int(input("Elija la versión/opción de su vehículo "))
+                                    
+                                    #Primera versión
+                                    if m==1:
+                                        #DETALLES
+                                        print("No hay llantas para tu especificación")
+                                     
+                                    #Segunda versión
+                                    elif m==2:
+                                        #DETALLES
+                                        print("CARACTERISTICAS DE LA LLANTA DE SU VEHÍCULO")
+                                        print("Medida de la llanta: 195/70R 15C")
+                                        print("Indice de la velocidad: R")
+                                        print("Indice de carga: 104")
+                                        print("Rango de carga: D")
+                                        print("Costado: BSW")
+                                        print("Carga máxima: 900 lbs")
+                                        print("Presión máx de inflado: 65 PSI")
+                                        print("Profundidad de banda de rodamiento: 10.500 mm")
+                                        print("")
+                                        print("Precio unitario: S/.481")
+                                        print("LINK DE PAGINA 1")                                      
+                                        print("https://www.cambiatullanta.com.pe/medida/195-70-R15C")
+                                        print("")
+                                        print("Precio unitario: S/.325")
+                                        print("LINK DE PAGINA 2")
+                                        print("https://www.speedperu.com/index.php/categorias/aros-llantas/camionetas-28/llanta-marca-michelin-modelo-agilis-104-102r-medida-195-70-r15c.html")
+                                        
+                                    #cuando vuelve a preguntar
+                                    else:
+                                        print("Elija una de estas versiones")
+                                        print("1. HIACE 1.3 JUPTIER")
+                                        print("2. HIACE 2.8 TDI VAN")
+                                    
+
+                    #Segunda marca del vehículo
+                    if m==2:
+                        #MODELOS 
+                        print("MODELOS")
+                        print("1. GIULIETTA")
+                        print("2. MITO")
+                        while True:
+                            n=int(input("Elija el modelo de su vehículo "))
+                            
+                            #Primer modelo
+                            if n==1:
+                                #VERSIONES
+                                print("VERSIONES")
+                                print("1. GIULIETTA 1.4 16V TB MULTIAIR DISTINCTIVE")
+                                print("2. GIULIETTA 1.8 16V TB GDI PROGRESSION")
+                                while True:
+                                    m=int(input("Elija la versión/opción de su vehículo "))
+                                    #Primera version
+                                    if m==1:
+                                     #DETALLES
+                                        print("Medida de la llanta: 225/45R17")
+                                        print("Indice de velocidad: W")
+                                        print("Indice de carga: 90")
+                                        prin("")
+                                        print("Precio unitario: S/.550")
+                                        print("LINK DE PÁGINA 1")
+                                        print("https://www.goodyear.com.pe/tire-results?y=2018&m=ALFA+ROMEO&mo=GIULIETTA&v=1.4+16V+TB+MULTIAIR+DISTINCTIVE&addr=Av.+Javier+Prado+Este%2C+Lima%2C+Per%C3%BA&lat=-12.0824361&lng=-76.98570610000002")
+                                        prin("")
+                                        print("Precio unitario: S/.570")
+                                        print("LINK DE PÁGINA 2")
+                                        print("https://www.speedperu.com/index.php/llanta-marca-yokohama-modelo-a048-m-90w-tl-medida-225-45-r17.html")
+                                        
+                                    #Segunda version
+                                    elif m==2:
+                                        #DETALLES
+                                        print("CARACTERÍSTICAS DE LA LLANTA")
+                                        print("Medida de la llanta: 225/45R17")
+                                        print("Indice de velocidad: W")
+                                        print("Indice de carga: 93")
+                                        print("")
+                                        print("Precio unitario: S/.682")
+                                        print("LINK DE PAGINA 1")
+                                        print("https://www.goodyear.com.pe/tire-results?y=2018&m=ALFA+ROMEO&mo=GIULIETTA&v=1.8+16V+TB+GDI+PROGRESSION&addr=Av.+Javier+Prado+Este%2C+Lima%2C+Per%C3%BA&lat=-12.0824361&lng=-76.98570610000002")  
+                                        print("")
+                                        print("Precio unitario: S/.425")
+                                        print("LINK DE PAGINA 2")
+                                        print("https://www.speedperu.com/index.php/categorias/llanta-marca-federal-modelo-595rs-r-94w-medida-225-45-zr17.html")
+                                    
+                                        
+                            #Segundo modelo
+                            if n==2:
+                                #VERSIONES
+                                print("VERSIONES")
+                                print("1. MITO 1.4 16V T-JET")
+                                while True:
+                                    m=int(input("Elija una version "))
+                                    #Primera version
+                                    if m==1:
+                                        #DETALLES
+                                        print("CARACTERISTICAS DE LA LLANTA")
+                                        print("Medida de la llanta: 215/45R17")
+                                        print("Indice de velocidad: W")
+                                        print("Indice de carga: 91")
+                                        print("")
+                                        print("Precio unitario: S/.740")
+                                        print("LINK DE LA PAGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/215-45-R17")
+                                        print("")
+                                        print("Precio unitario: S/.690")
+                                        print("LINK DE LA PAGINA 2")
+                                        print("https://www.speedperu.com/index.php/categorias/llanta-marca-continental-modelo-contisport-contact-5-runflat-ssr-91w-medida-225-45-r17.html")
+                                        
+                                        
+                                        
+                    # Tercera marca del vehículo                   
+                    if m==3:
+                        #MODELOS
+                        print("MODELOS")
+                        print("1. DB11")
+                        print("2. RAPIDE")
+                        print("3. VANQUISH")
+                        while True:
+                            n=int(input("Elija una de estos modelos "))
+                            
+                            #Primer modelo
+                            if n==1:
+                                #VERSIONES
+                                print("VERSIONES")
+                                print("1. DB11 5.2 V12 TURBO COUPE AUTO")
+                                while True:
+                                    m=int(input("Elija la versión de su vehículo "))
+                                    #3.1.1 primera version
+                                    if m==1:
+                                        #DETALLES
+                                        print("CARACTERISTICAS DE SU LLANTA")
+                                        print("Medidad de la llanta delantera: 255/40R20")
+                                        print("Precio por unidad:S/.1856")
+                                        print("LINK DE LA PAGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/255-40-R20")
+                                        print("Medidad de llanta rear: 295/35R20")
+                                        print("Precio unitario: S/.2580")
+                                        print("LINK DE LA PAGINA 2")
+                                        print("https://www.cambiatullanta.com.pe/medida/295-35-R20")
+                            #Segundo modelo           
+                            if n==2:
+                                #VERSIONES
+                                print("VERSIONES")
+                                print("1. RAPIDE 6.0 V12 S AUTO")
+                                while True:
+                                    m=int(input("Elija una de la version de su auto "))
+                                    #3.2.1 primera version
+                                    if m==1:
+                                        #DETALLES
+                                        print("CARACTERISTICAS DE SU LLANTA")
+                                        print("Medidas de las llantas delanteras: 245/40R20")
+                                        print("Precio unitario: S/.680")
+                                        print("LINK DE LA PAGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/245-40-R20")
+                                        print("Medidas de las llantas rear: 295/35R20")
+                                        print("Precio unitario: S/.2553")
+                                        print("LINK DE LA PAGINA 2")
+                                        print("https://www.cambiatullanta.com.pe/medida/295-35-R20")
+                            #Tercer modelo
+                            if n==3:
+                                #VERSIONES
+                                print("VERSIONES")
+                                print("1. VANQUISH 6.0 V12 AUTO")
+                                while True:
+                                    m=int(input("Elija la version de su auto "))
+                                    #3.3.1 primera version
+                                    if m==1:
+                                        #DETALLES
+                                        print("CARACTERISTICAS DE SU LLANTA")
+                                        print("Medidad de las llantas delanteras: 255/35R20")
+                                        print("Indice de velocidad-llanta delantero: Y")
+                                        print("Indice de carga-llanta delantero: 97 ")
+                                        print("Precio unitario : s/1212")
+                                        print("LINK DE LA PAGINA")
+                                        print("https://www.cambiatullanta.com.pe/medida/255-35-R20")
+                                        print("Medidad de las llantas rear: 305/30R20")
+                                        print("Indice de velocidad-llantas rear: Y")
+                                        print("Indice de carga-llantas rear: 99")
+                                        print("Precio unitario: S/.2679")
+                                        print("LINK DE LA PAGINA")
+                                        print("https://www.cambiatullanta.com.pe/medida/305-30-R20")
+                                        
+                    #Cuarta marca del vehículo        
+                    if m==4:
+                        #MODELOS DEL VEHICULOS
+                        print("MODELOS")
+                        print("1. RIO")
+                        print("2. SORENTO")
+                        while True:
+                            n=int(input("Elija el modelo de su vehículo "))
+                            
+                            #Primer modelo
+                            if n==1:
+                                #VERSIONES
+                                print("VERSIONES")
+                                print("1. RIO SEDAN 1.2 16V LX ")
+                                print("2. RIO SEDAN 1.4 16V LX ")
+                                while True:
+                                    m=int(input("Elija la versión/opción de su vehículo "))
+                                    #Primera version
+                                    if m==1:
+                                     #DETALLES
+                                        print("Medida de la llanta: 175/70R14")
+                                        print("Indice de velocidad: T")
+                                        print("Indice de carga: 84")
+                                        print("")
+                                        print("Precio unitario: S/.270")
+                                        print("LINK DE PÁGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/175-70-R14")
+                                        print("")
+                                        print("Precio unitario: S/.148")
+                                        print("LINK DE PAGINA 2")
+                                        print("https://www.speedperu.com/index.php/categorias/aros-llantas/autos-29/llanta-marca-ovation-modelo-ecovision-vi-682-84t-tl-medida-175-70-r14.html")
+                                        
+                                        
+                                    #Segunda version
+                                    elif m==2:
+                                        #DETALLES
+                                        print("CARACTERÍSTICAS DE LA LLANTA")
+                                        print("Medida de la llanta: 175/70R14")
+                                        print("Indice de velocidad: T")
+                                        print("Indice de carga: 84")
+                                        print("")
+                                        print("Precio unitario: S/.270")
+                                        print("LINK DE PÁGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/175-70-R14")
+                                        print("")
+                                        print("Precio unitario: S/.148")
+                                        print("LINK DE PAGINA 2")
+                                        print("https://www.speedperu.com/index.php/categorias/aros-llantas/autos-29/llanta-marca-ovation-modelo-ecovision-vi-682-84t-tl-medida-175-70-r14.html")
+                                        
+                                        
+                            #Segundo modelo
+                            if n==2:
+                                #VERSIONES
+                                print("VERSIONES")
+                                print("1. SORENTO 2.4 16V EX FULL AUTO ")
+                                print("2. SORENTO 3.3 V6 EX FULL AUTO 4X4 ")
+                                while True:
+                                    m=int(input("Elija una version "))
+                                    #Primera version
+                                    if m==1:
+                                        #DETALLES
+                                        print("CARACTERISTICAS DE LA LLANTA")
+                                        print("Medida de la llanta: 235/65R17")
+                                        print("Indice de velocidad: H")
+                                        print("Indice de carga: 104")
+                                        print("")
+                                        print("Precio unitario: S/.680")
+                                        print("LINK DE PÁGINA 1 ")
+                                        print("https://www.cambiatullanta.com.pe/medida/235-65-R17")
+                                        print("")
+                                        print("Precio unitario: S/.460")
+                                        print("LINK DE PÁGINA 2")
+                                        print("https://www.speedperu.com/index.php/llanta-marca-nexen-tire-modelo-nfera-ru1-104h-tl-medida-235-65-r17.html") 
+                                       
+                                    #Segunda version
+                                    if m==2:
+                                        #DETALLES
+                                        print("CARACTERISTICAS DE LA LLANTA")
+                                        print("Medida de la llanta: 235/55R19")
+                                        print("Indice de velocidad: V")
+                                        print("Indice de carga: 101")
+                                        print("")
+                                        print("Precio unitario: S/.783")
+                                        print("LINK DE PÁGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/235-55-R19")
+                                        print("")
+                                        print("Precio unitario: S/.620")
+                                        print("LINK DE PÁGINA 2")
+                                        print("https://www.speedperu.com/index.php/llanta-marca-yokohama-modelo-geolandar-g055-tl-101v-medida-235-55-r19.html") 
+                                         
+                                        
+                    if m==5:
+                        #MODELOS DEL VEHICULOS
+                        print("MODELOS")
+                        print("1. COROLLA")
+                        print("2. HILUX")
+                        while True:
+                            n=int(input("Elija el modelo de su vehículo "))
+                            #Primer modelo
+                            if n==1:
+                                #VERSIONES
+                                print("VERSIONES")
+                                print("1. COROLLA SEDAN 1.8 VVT-I PREMIUM ")
+                                print("2. COROLLA SEDAN 1.8 VVT-I FULL")
+                                while True:
+                                    m=int(input("Elija la versión/opción de su vehículo "))
+                                    #Primera version
+                                    if m==1:
+                                     #DETALLES
+                                        print("Medida de la llanta: 205/55R16")
+                                        print("Indice de velocidad: V")
+                                        print("Indice de carga: 91")
+                                        print("")
+                                        print("Precio unitario: S/.350")
+                                        print("LINK DE PÁGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/205-55-R16") 
+                                        print("")
+                                        print("Precio unitario: S/.460")
+                                        print("LINK DE PÁGINA 2")
+                                        print("https://www.speedperu.com/index.php/llanta-marca-yokohama-modelo-advan-neova-ad08r-91v-tl-medida-205-55-r16.html")
+                                        
+                                    #Segunda version
+                                    elif m==2:
+                                        #DETALLES
+                                        print("CARACTERÍSTICAS DE LA LLANTA")
+                                        print("Medida de la llanta: 205/55R16")
+                                        print("Indice de velocidad: V")
+                                        print("Indice de carga: 91")
+                                        print("")
+                                        print("Precio unitario: S/.350")
+                                        print("LINK DE PÁGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/205-55-R16")
+                                        print("")
+                                        print("Precio unitario: S/.460")
+                                        print("LINK DE PÁGINA 2")
+                                        print("https://www.speedperu.com/index.php/llanta-marca-yokohama-modelo-advan-neova-ad08r-91v-tl-medida-205-55-r16.html")
+                                          
+                            #Segundo modelo
+                            if n==2:
+                                #VERSIONES
+                                print("VERSIONES")
+                                print("1. HILUX 2.4 TDI 4X4 ")
+                                print("2. HILUX 2.8 TDI SRV DOBLE CABINA 4X4  ")
+                                while True:
+                                    m=int(input("Elija una version "))
+                                    #Primera version
+                                    if m==1:
+                                        #DETALLES
+                                        print("CARACTERISTICAS DE LA LLANTA")
+                                        print("Medida de la llanta: 225/70R17")
+                                        print("Indice de velocidad: S")
+                                        print("Indice de carga: 108")
+                                        print("")
+                                        print("Precio unitario: S/.555")
+                                        print("LINK DE PÁGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/225-70-R17")
+                                        print("")
+                                        print("Precio unitario: S/.431")
+                                        print("LINK DE PÁGINA 2")
+                                        print("https://tienda.jchllantas.com.pe/tienda/?filter_ancho=225&filter_perfil=70&filter_aro=r17")
+                                    #Segunda version
+                                    if m==2:
+                                        #DETALLES
+                                        print("CARACTERISTICAS DE LA LLANTA")
+                                        print("Medida de la llanta: 265/65R17")
+                                        print("Indice de velocidad: S")
+                                        print("Indice de carga: 112")
+                                        print("")
+                                        print("Precio unitario: S/.670")
+                                        print("LINK DE PÁGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/265-65-R17")
+                                        print("")
+                                        print("Precio unitario: S/.350")
+                                        print("LINK DE PÁGINA 2")
+                                        print("https://tienda.jchllantas.com.pe/tienda/?filter_ancho=265&filter_perfil=65&filter_aro=r17")
+                    
+                    if m==6:
+                        #MODELOS DEL VEHICULOS
+                        print("MODELOS")
+                        print("1. QASHQAI")
+                        print("2. SENTRA")
+                        while True:
+                            n=int(input("Elija el modelo de su vehículo "))
+                            #Primer modelo
+                            if n==1:
+                                #VERSIONES
+                                print("VERSIONES")
+                                print("1. QASHQAI 2.0 16V FULL ") 
+                                print("2. QASHQAI 2.0 16V FULL EXCLUSIVE CVT 4X4")
+                                while True:
+                                    m=int(input("Elija la versión/opción de su vehículo "))
+                                    #Primera version
+                                    if m==1:
+                                     #DETALLES
+                                        print("Medida de la llanta: 215/60R17")
+                                        print("Indice de velocidad: H")
+                                        print("Indice de carga: 96")
+                                        print("")
+                                        print("Precio unitario: S/.510")
+                                        print("LINK DE PÁGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/215-60-R17")
+                                        print("")
+                                        print("Precio unitario: S/.248")
+                                        print("LINK DE PÁGINA 2")
+                                        print("https://tienda.jchllantas.com.pe/tienda/?filter_ancho=215&filter_perfil=60&filter_aro=r17")
+                                        
+                                    #Segunda version
+                                    if m==2:
+                                        #DETALLES
+                                        print("CARACTERISTICAS DE LA LLANTA")
+                                        print("Medida de la llanta: 225/45R19")
+                                        print("Indice de velocidad: V")
+                                        print("Indice de carga: 92") 
+                                        print("")
+                                        print("Precio unitario: S/.950")
+                                        print("LINK DE PÁGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/225-45-R19")
+                                        print("")
+                                        print("Precio unitario: S/.1220")
+                                        print("LINK DE PÁGINA 2")
+                                        print("https://tienda.jchllantas.com.pe/tienda/?filter_ancho=225&filter_perfil=45&filter_aro=r19")
+                                        
+                            #Segundo modelo
+                            if n==2:
+                                #VERSIONES
+                                print("VERSIONES")
+                                print("1. SENTRA 1.8 16V SENSE CVT ")
+                                print("2. SENTRA 1.8 16V FULL EXCLUSIVE CVT ")
+                                
+                                while True:
+                                    m=int(input("Elija una version "))
+                                    #Primera version
+                                    if m==1:
+                                        #DETALLES
+                                        print("CARACTERISTICAS DE LA LLANTA")
+                                        print("Medida de la llanta: 205/55R16")
+                                        print("Indice de velocidad: V")
+                                        print("Indice de carga: 91")
+                                        print("")
+                                        print("Precio unitario: S/.333")
+                                        print("LINK DE PÁGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/205-55-R16")
+                                        print("")
+                                        print("Precio unitario: S/.149")
+                                        print("LINK DE PÁGINA 2")
+                                        print("https://tienda.jchllantas.com.pe/tienda/?filter_ancho=205&filter_perfil=55&filter_aro=r16")
+                                        
+                                    #Segunda version
+                                    if m==2:
+                                        #DETALLES
+                                        print("CARACTERISTICAS DE LA LLANTA")
+                                        print("Medida de la llanta: 205/50R17")
+                                        print("Indice de velocidad: V")
+                                        print("Indice de carga: 91") 
+                                        print("")
+                                        print("Precio unitario: S/.431")
+                                        print("LINK DE PÁGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/205-50-R17")
+                                        print("")
+                                        print("Precio unitario: S/.348")
+                                        print("LINK DE PÁGINA 2")
+                                        print("https://tienda.jchllantas.com.pe/tienda/?filter_ancho=205&filter_perfil=50&filter_aro=r17")
+                                      
+                                        
+                    
+            if a==2019:
+                print("1. DAIHATSU")
+                print("2. DODGE")
+                print("3. HYUNDAI")
+                print("4. MAZDA")
+                print("5. VOLKSWAGEN")
+                print("6. FORD")
+                while True:   
+                    m=int(input("Ingrese la marca de su vehículo "))
+                    #Primera marca del 2019
+                    if m==1:
+                        print("Modelo de su vehículo")
+                        print("1. TERIOS")                     
+                        while True:
+                            n=int(input("Elija el modelo de su vehículo "))
+                            if n==1:
+                                print("VERSIÓN/OPCIÓN")
+                                print("1. TERIOS 1.5 LUJO ")
+                                print("2. TERIOS 1.5 LUJO 4X4")
+                    
+                                while True:
+                                    m=int(input("Elija la versión de su vehículo "))
+                                    if m==1:
+                                        print("NEUMATICO Goodyear Wrangler SUV:")
+                                        print("Caracteristicas del neumatico:")
+                                        print("medida del neumatico: 215/65R16")
+                                        print("Indice de la velocidad: H")
+                                        print("Indice de carga: 98")
+                                        print("Rango de carga: SL")
+                                        print("Costado: VSB")
+                                        print("Carga máxima: 750 lbs")
+                                        print("Presión máx de inflado: 51 PSI")
+                                        print("Profundidad de banda de rodamiento: 9.500 mm")
+                                        print("")
+                                        print("Precio unitario: S/.710")
+                                        print("LINK DE PÁGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/215-65-R16")
+                                        print("")
+                                        print("Precio unitario: s/214")
+                                        print("LINK  DE PAGINA 2")
+                                        print("https://www.falabella.com.pe/falabella-pe/product/17474564/Llanta-215-65R16-touring-gt-98h/17474565?kid=shopp800000182746")
+                        
+                                    elif m==2:
+                                        print("NEUMATICO Goodyear Wrangler SUV:")
+                                        print("Caracteristicas del neumatico:")
+                                        print("medida de la llanta: 215/65R16")
+                                        print("Indice de la velocidad: H")
+                                        print("Indice de carga: 98")
+                                        print("Rango de carga: SL")
+                                        print("Costado: BSW")
+                                        print("Carga máxima: 850 lbs")
+                                        print("Presión máx de inflado: 65 PSI")
+                                        print("Profundidad de banda de rodamiento: 10.000 mm")
+                                        print("")
+                                        print("Precio unitario: S/.710")
+                                        print("LINK DE PÁGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/215-65-R16")
+                                        print("")
+                                        print("Precio unitario: s/572")
+                                        print("LINK DE PAGINA 2")
+                                        print("https://www.pimentel.com.pe/productos/191-llanta-215-65r16-wrangler-suv-98h.html")
+                                        
+                                    else:
+                                        print("Elija una de estas VERSIÓN/OPCIÓN")
+                                        print("1. HIACE 1.3 JUPTIER")
+                                        print("2. HIACE 2.8 TDI VAN")
+                                        
+                    #Segunda marca del 2019 
+                    if m==2:
+                        print("1. CHALLENGER")
+                        print("2. DURANGO")
+                        while True:
+                            n=int(input("Elija el modelo de su vehículo "))          
+                            if n==1:
+                                print("1. CHALLENGER 5.7 V8 RT")
+                                print("2. CHALLENGER 6.1 TURBO")
+                                while True:
+                                    m=int(input("Elija la versión de su vehículo "))
+                                    if m==1:
+                                        print("NEUMATICO Michelin PLUS")
+                                        print("Medida de la llanta: 255/60R18")
+                                        print("Indice de velocidad: T")
+                                        print("Indice de carga: 130")
+                                        print("")
+                                        print("Precio unitario: S/.1160")
+                                        print("LINK DE PAGINA 1")
+                                        print(" https://www.michelin.com.pe/")
+                                        print("")
+                                        print("Precio unitario: s/733")
+                                        print("LINK DE PAGINA 2")
+                                        print("https://www.promart.pe/llanta-pirelli-scorpion-atr-255-60r18-99953885/p?idsku=10042710&sc=27")
+
+                                        
+                                    elif m==2:
+                                        print(" NEUMATICO Super Good year")
+                                        print("CRACTERÍSTICAS DEL NEUMATICO:")
+                                        print("Medida de la llanta: 255/60R18")
+                                        print("Indice de velocidad: T")
+                                        print("Indice de craga: 130")
+                                        print("")
+                                        print("Precio unitario: S/.1160")
+                                        print("LINK DE PAGINA 1")
+                                        print("https://www.goodyear.com.pe/") 
+                                        print("")
+                                        print("Precio unitario: s/733")
+                                        print("LINK DE PAGINA 2")
+                                        print("https://www.promart.pe/llanta-pirelli-scorpion-atr-255-60r18-99953885/p?idsku=10042710&sc=27")
+                                    if m==1 or m==2:
+                                        break
+                            elif n==2:
+                                print("1. DURANDO 3.6 V6 AUTO")
+                                print("2. DURANGO 5.7 V8 LX AUTO 4X4")
+                                while True:
+                                    m=int(input("Elija la versión de su vehículo "))
+                                    if m==1:
+                                        print(" NEUMATICO Michelin PLUS")
+                                        print("Medida de la llanta: 255/60R18")
+                                        print("Indice de velocidad: T")
+                                        print("Indice de carga: 130")
+                                        print("")
+                                        print("Precio unitario: S/.1160")
+                                        print("LINK DE PAGINA 1")
+                                        print("https://www.michelin.com.pe/")
+                                        print("")
+                                        print("Precio unitario: s/601")
+                                        print("LINK DE PAGINA 2")
+                                        print("https://www.plazavea.com.pe/llanta-pirelli-scorpion-atr-255-60r18-99943818/p")
+                                    elif m==2:
+                                        print(" NEUMATICO Super Good year")
+                                        print("CRACTERÍSTICAS DEL NEUMATICO:")
+                                        print("Medida de la llanta: 255/60R18")
+                                        print("Indice de velocidad: T")
+                                        print("Indice de craga: 130")
+                                        print("")
+                                        print("Precio unitario: S/.1160")
+                                        print("LINK DE PAGINA 1")
+                                        print("https://www.goodyear.com.pe/")                                        
+                                        print("")
+                                        print("Precio unitario: s/601")
+                                        print("LINK DE PAGINA 2")
+                                        print("https://www.plazavea.com.pe/llanta-pirelli-scorpion-atr-255-60r18-99943818/p")
+                                    if m==1 or m==2:
+                                        break
+                                        
+                    #Tercera marca del 2019                    
+                    if m==3:
+                        print("1. TUCSON")
+                        print("2. ACCENT")
+                        while True:
+                            n=int(input("Elija el modelo de su vehículo "))          
+                            if n==1:
+                                print("1. TUCSON 1.6 TURBO GL AUTO")
+                                print("2. TUCSON 2.0 16V GLS AUTO 4X4")
+                                while True:
+                                    m=int(input("Elija la versión de su vehículo "))
+                                    if m==1:
+                                        print("Medida de la llanta: 225/55R18")
+                                        print("Indice de velocidad: H")
+                                        print("Indice de carga: 97")
+                                        print("")
+                                        print("Precio unitario: S/.435")
+                                        print("LINK DE PAGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/225-55-R18")
+                                        print("")
+                                        print("Precio unitario: s/550")
+                                        print("LINK DE PAGINA 2")
+                                        print("https://www.speedperu.com/index.php/catalogsearch/result/?q=225%2F55R18+")
+                                    elif m==2:
+                                        print("Medida de la llanta: 225/55R18")
+                                        print("Indice de velocidad: H")
+                                        print("Indice de carga: 97")
+                                        print("")
+                                        print("Precio unitario: S/.435")
+                                        print("LINK DE PAGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/225-55-R18") 
+                                        print("")
+                                        print("Precio unitario: s/540")
+                                        print("LINK DE PAGINA 2")
+                                        print("https://www.speedperu.com/index.php/catalogsearch/result/?q=225%2F55R18+")
+                                    if m==1 or m==2:
+                                        break
+                            elif n==2:
+                                print("1. ACCENT SEDAN 1.6 16V SEDAN GLS 2AB ABS AUTO ")
+                                print("2. ACCENT SEDAN 1.4 16V SEDAN GL AC")
+                                while True:
+                                    m=int(input("Elija la versión de su vehículo "))
+                                    if m==1:
+                                        
+                                        print("Medida de la llanta: 195/50R16")
+                                        print("Indice de velocidad: V")
+                                        print("Indice de carga: 91")
+                                        print("")
+                                        print("Precio unitario: S/.330")
+                                        print("LINK DE PAGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/195-50-R16")
+                                        print("")
+                                        print("Precio unitario: s/266")
+                                        print("LINK DE PAGINA 2")
+                                        print("https://www.speedperu.com/index.php/catalogsearch/result/?q=195%2F50R16")
+                                    elif m==2:
+                                        
+                                        print("CARACTERÍSTICAS DEL NEUMATICO:")
+                                        print("Medida de la llanta: 175/70R14")
+                                        print("Indice de velocidad: T")
+                                        print("Indice de craga: 82")
+                                        print("")
+                                        print("Precio unitario: S/.270")
+                                        print("LINK DE PAGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/175-70-R14 ") 
+                                        print("")
+                                        print("Precio unitario: s/227")
+                                        print("LINK DE PAGINA 2")
+                                        print("https://www.speedperu.com/index.php/catalogsearch/result/?q=175%2F70R14")
+                                    if m==1 or m==2:
+                                        break
+                                        
+                    #Cuarta marca del 2019                    
+                    if m==4:
+                        print("1. MAZDA 3")
+                        print("2. MAZDA CX-9")
+                        while True:
+                            n=int(input("Elija el modelo de su vehículo "))          
+                            if n==1:
+                                print("1. MAZDA3 SEDAN 2.5 16V SEDAN GS HIGH AUTO ")
+                                print("2. MAZDA3 SEDAN 1.6 16V SEDAN GS CORE")
+                                while True:
+                                    m=int(input("Elija la versión de su vehículo "))
+                                    if m==1:
+                                        print("Medida de la llanta: 215/45R18")
+                                        print("Indice de velocidad: W")
+                                        print("Indice de carga: 89")
+                                        print("")
+                                        print("Precio unitario: S/.550")
+                                        print("LINK DE PAGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/215-45-R18")
+                                        print("")
+                                        print("Precio unitario: s/765")
+                                        print("LINK DE PAGINA 2")
+                                        print("https://www.speedperu.com/index.php/catalogsearch/result/?q=215%2F45R18")
+                                    elif m==2:
+                                        print("Medida de la llanta: 195/65R15 ")
+                                        print("Indice de velocidad: H")
+                                        print("Indice de carga: 91")
+                                        print("")
+                                        print("Precio unitario: S/.190")
+                                        print("LINK DE PAGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/195-65-R15")
+                                        print("")
+                                        print("Precio unitario: s/940")
+                                        print("LINK DE PAGINA 2")
+                                        print("https://www.speedperu.com/index.php/catalogsearch/result/?q=195%2F65R15")
+                                    if m==1 or m==2:
+                                        break
+                            elif n==2:
+                                print("1. CX-9 2.5 TURBO GS HIGH AUTO AWD ")
+                                print("2. CX-9 2.5 TURBO GS ENTRY AUTO AWD ")
+                                while True:
+                                    m=int(input("Elija la versión de su vehículo "))
+                                    if m==1:
+                                        
+                                        print("Medida de la llanta: 255/50R20")
+                                        print("Indice de velocidad: V")
+                                        print("Indice de carga: 104")
+                                        print("")
+                                        print("Precio unitario: S/.1400")
+                                        print("LINK DE PAGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/255-50-R20")                                     
+                                        print("")
+                                        print("Precio unitario: s/1040")
+                                        print("LINK DE PAGINA 2")
+                                        print("https://www.speedperu.com/index.php/catalogsearch/result/?q=255%2F50R20")
+                                    elif m==2:
+                                        
+                                        print("Medida de la llanta: 255/50R20")
+                                        print("Indice de velocidad: V")
+                                        print("Indice de carga: 104")
+                                        print("")
+                                        print("Precio unitario: S/.1400")
+                                        print("LINK DE PAGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/255-50-R20") 
+                                        print("")
+                                        print("Precio unitario: s/1040")
+                                        print("LINK DE PAGINA 2")
+                                        print("https://www.speedperu.com/index.php/catalogsearch/result/?q=255%2F50R20")
+                                    if m==1 or m==2:
+                                        break 
+                    
+                    #Quinta marca del 2019
+                    if m==5:
+                        print("1. GOLF")
+                        print("2. TOUAREG")
+                        while True:
+                            n=int(input("Elija el modelo de su vehículo "))          
+                            if n==1:
+                                print("1. GOLF HATCHBACK 2.0 TFSI GTI DSG")
+                                print("2. GOLF HATCHBACK 1.4 TFSI COMFORT TIPTRONIC")
+                                while True:
+                                    m=int(input("Elija la versión de su vehículo "))
+                                    if m==1:
+                                        print("Medida de la llanta: 225/45R17")
+                                        print("Indice de velocidad: W")
+                                        print("Indice de carga: 91")
+                                        print("")
+                                        print("Precio unitario: S/.495")
+                                        print("LINK DE PAGINA 1")
+                                        print("https://www.goodyear.com.pe/tire-results?y=2019&m=VOLKSWAGEN&mo=GOLF%20HATCHBACK&v=2.0%20TFSI%20GTI%20DSG&f=1610701&addr=Lima,%20Per%C3%BA&lat=-12.0463731&lng=-77.042754")
+                                        print("")
+                                        print("Precio unitario: s/242")
+                                        print("LINK DE PAGINA 2")
+                                        print("https://www.speedperu.com/index.php/catalogsearch/result/?q=225%2F45R17")
+                                    elif m==2:
+                                        print("Medida de la llanta: 205/55R16")
+                                        print("Indice de velocidad: v")
+                                        print("Indice de carga: 91")
+                                        print("")
+                                        print("Precio unitario: S/.302")
+                                        print("LINK DE PAGINA 1")
+                                        print("https://www.goodyear.com.pe/tire-results?y=2019&m=VOLKSWAGEN&mo=GOLF%20HATCHBACK&v=1.4%20TFSI%20COMFORT%20TIPTRONIC&f=1610676&addr=Lima,%20Per%C3%BA&lat=-12.0463731&lng=-77.042754") 
+                                        print("")
+                                        print("Precio unitario: s/170")
+                                        print("LINK DE PAGINA 2")
+                                        print("https://www.speedperu.com/index.php/catalogsearch/result/?q=205%2F55R16")
+                                    if m==1 or m==2:
+                                        break
+                            elif n==2:
+                                print("1. TOUAREG 3.0 V6 TDI TIPTRONIC 4MOTION")
+                                
+                                while True:
+                                    m=int(input("Elija la versión de su vehículo "))
+                                    if m==1:
+                                        
+                                        print("Medida de la llanta: 255/55R18")
+                                        print("Indice de velocidad: Y")
+                                        print("Indice de carga: 109")
+                                        print("")
+                                        print("Precio unitario: S/.550")
+                                        print("LINK DE PAGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/255-55-R18")
+                                        print("")
+                                        print("Precio unitario: s/380")
+                                        print("LINK DE PAGINA 2")
+                                        print("https://www.speedperu.com/index.php/catalogsearch/result/?q=255%2F55R18")
+                                   
+                    #Sexta marca del 2019                    
+                    if m==6:
+                        print("1. RANGER")
+                        print("2. EXPIDITION")
+                        while True:
+                            n=int(input("Elija el modelo de su vehículo "))          
+                            if n==1:
+                                print("1. RANGER 3.2 CDRI XLT CABINE DUPLA 4X4")
+                                print("2. RANGER 2.2 TDGI XL CABINE DUPLA ")
+                                while True:
+                                    m=int(input("Elija la versión de su vehículo "))
+                                    if m==1:
+                                        print("Medida de la llanta: 265/65R17")
+                                        print("Indice de velocidad: T")
+                                        print("Indice de carga: 112")
+                                        print("")
+                                        print("Precio unitario: S/.670")
+                                        print("LINK DE PAGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/265-65-R17")        
+                                        print("")
+                                        print("Precio unitario: s/520")
+                                        print("LINK DE PAGINA 2")
+                                        print("https://www.speedperu.com/index.php/catalogsearch/result/?q=+265%2F65R17")
+                                        
+                                    elif m==2:
+                                        print("Medida de la llanta: 255/70R16 ")
+                                        print("Indice de velocidad: H")
+                                        print("Indice de carga: 109")
+                                        print("")
+                                        print("Precio unitario: S/.775")
+                                        print("LINK DE PAGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/255-70-R16")
+                                        print("")
+                                        print("Precio unitario: s/438")
+                                        print("LINK DE PAGINA 2")
+                                        print("https://www.speedperu.com/index.php/catalogsearch/result/?q=255%2F70R16")
+                                    if m==1 or m==2:
+                                        break
+                            elif n==2:
+                                print("1. EXPEDITION 3.5 ECOBOOST LIMITED AUTO 4X4")
+                                print("2. EXPEDITION 5.4 V8 LIMITED AUTO 4X4 ")
+                                while True:
+                                    m=int(input("Elija la versión de su vehículo "))
+                                    if m==1:
+                                        
+                                        print("Medida de la llanta: 275/55R20")
+                                        print("Indice de velocidad: H")
+                                        print("Indice de carga: 113")
+                                        print("")
+                                        print("Precio unitario: S/.1155")
+                                        print("LINK DE PAGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/275-55-R20")
+                                        print("")
+                                        print("Precio unitario: s/462")
+                                        print("LINK DE PAGINA 2")
+                                        print("https://www.speedperu.com/index.php/catalogsearch/result/?q=275%2F55R20")
+                                    elif m==2:
+                                        
+                                        print("Medida de la llanta: 265/70R17")
+                                        print("Indice de velocidad: S")
+                                        print("Indice de carga: 113")
+                                        print("")
+                                        print("Precio unitario: S/.800")
+                                        print("LINK DE PAGINA 1")
+                                        print("https://www.cambiatullanta.com.pe/medida/265-70-R17")
+                                        print("")
+                                        print("Precio unitario: s/390")
+                                        print("LINK DE PAGINA 2")
+                                        print("https://www.speedperu.com/index.php/catalogsearch/result/?q=265%2F70R17")
+                                    if m==1 or m==2:
+                                        break                     
+
+
+    if n==2:
+        while True:
+            x=int(input("Ingrese el ancho: "))
+            y=int(input("Ingrese perfil: "))
+            z=int(input("Ingrese el diametro: "))
+
+            if x==255 and y==4 and z==19:
+                print("Neumático: Goodyear Eagle F1 Asymmetric 2 ROF")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Ideal para ciudad / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Control preciso y potente. Aproveche al máximo su coche con un neumático fabricado para maximizar el rendimiento de alta potencia. Un compuesto de sílice especial ofrece un agarre fiable en carreteras secas y mojadas con una carcasa rígida que aumenta la precisión de la dirección incluso a alta velocidad.")
+            elif x==225 and y==45 and z==17:
+                print("Neumático: Goodyear Eagle F1 Asymmetric 3")
+                print(x,"/",y,"R",z)
+                s=("Precio 140$ / Ideal para ciudad / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Neumático para camiones ligeros que puede convertirse en su socio más fiable proporcionándole 10.000 km adicionales, ahorrándole combustible y ofreciéndole distancias de frenado más cortas sobre carreteras mojadas.")
+                print("Reseña: Comportamiento cómodo, tranquilo y predecible. Quizás no para todos los paseos deportivos debido al perfil ligeramente más alto, sino para las carreras normales, el mejor.")
+            elif x==205 and y==55 and z==16:
+                print("Neumático: Goodyear Assurance")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Ideal para ciudad / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: 2,600 millas/4,000 kilómetros en base a una mejora de ahorro de combustible del 4%.")
+            elif x==225 and y==50 and z==17:
+                print("Neumatico: Goodyear EfficientGrip Performance ROF")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Ideal para ciudad / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Distancia de frenado reducida Siéntase más seguro al volante en cada viaje con la tecnología ActiveBraking. Esta característica aumenta la superficie de contacto entre el neumático y la carretera, para reducir drásticamente las distancias de frenado, hasta un 8% más cortas en carreteras mojadas y hasta un 3 por ciento en carreteras secas.")
+            elif x==175 and y==70 and z==13:
+                print("Neumatico: Direction Touring")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Ideal para ciudad / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Surcos transversales y longitudinales más anchos, lo que brinda mejor adherencia en piso mojado.")
+            elif x==235 and y==45 and z==19:
+                print("Neumatico: Goodyear EfficientGrip ROF")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Ideal para ciudad / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Para que un pinchazo nunca vuelva a detener su viaje: gracias a la revolucionaria tecnología RunOnFlat, podrá conducir una distancia de hasta 80 km después de un pinchazo o reventón.")
+            elif x==225 and y==40 and z==18:
+                print("Neumatico: Goodyear Eagle F1 Asymmetric")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Ideal para ciudad / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Reducción de la distancia de frenado en carreteras mojadas y secas. Deténgase con total confianza cuando sea cuestión de milésimas de segundo gracias a la tecnología ActiveBraking, que aumenta el contacto del neumático con la calzada cuando frena.")
+            elif x==185 and y==60 and z==14:
+                print("Neumatico: Kelly Edge Sport")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Ideal para ciudad / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Bajo índice de desgaste de la banda de rodamiento: Ventaja de hasta 6 por ciento si se compara a su antecesor, entregando un alto kilometraje.")
+            elif x==225 and y==55 and z==17:
+                print("Neumatico: Goodyear Excellence ROF")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Ideal para ciudad / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Las plantas automotrices más reconocidas del mercado equipan sus vehículos con Neumaticos que tienen tecnología RunOnFlat®. Esta tecnología permite que la llanta ruede sin presión del aire hasta 80 km/h.")
+            elif x==205 and y==60 and z==16:
+                print("Neumatico: Goodyear EfficientGrip Performance")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Ideal para ciudad / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: El mejor frenado sobre terreno mojado con una resistencia mínima La tecnología WearControl de Goodyear está diseñada para encontrar el equilibrio ideal entre un agarre firme sobre carreteras mojadas y una baja resistencia a la rodadura, para reducir el consumo de combustible y garantizar una conducción más estable.")
+            elif x==175 and y==65 and z==14:
+                print("Neumatico: Kelly Edge Touring")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Ideal para ciudad / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Kelly Edge Touring es una llanta desarrollada para autos de baja a media potencia. Su desempeño en pistas mojadas es de hasta un 20 por ciento superior, en comparación con su predecesor.")
+            elif x==205 and y==55 and z==16:
+                print("Neumatico: Goodyear EfficientGrip")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Ideal para ciudad / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Con estructura liviana y compuesto avanzado de banda, EfficientGrip necesita menos energía para rodar. Disfruta viajes más silenciosos gracias al diseño de los bloques que reduce los niveles de ruido.")
+
+        #Siguiente
+
+            elif x==255 and y==60 and z==17:
+                print("Neumatico: Goodyear EfficientGrip Performance SUV")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Camioneta / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Desarrollado con la tecnología Fuel Saving, que proporciona ahorro de combustible. Ofrece un desempeño hasta 30 % mejor en maniobrabilidad y 15 por ciento superior en tracción y frenado en piso mojado.")
+            elif x==255 and y==70 and z==18:
+                print("Neumatico: Goodyear Wrangler All-Terrain Adventure")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / amioneta / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: El neumático versátil todoterreno con la rigidez de Kevlar® para circular fuera de carretera en cualquier momento. Capa reforzada de Kevlar®. Resiste los pinchazos y los cortes para una conducción segura fuera de la carretera.")
+            elif x==285 and y==75 and z==16:
+                print("Neumatico: Goodyear Wrangler MT/R Kevlar")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Camioneta / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Insuperable agarre en caminos Off-Road y lluvia. Compuesto de sílica en la banda de rodamiento que proporciona mayor tracción. Extraordinaria tracción en lodo, grava y caminos rocosos. Costado especial de la llanta con un agresivo dibujo que brinda tracción lateral.")
+            elif x==225 and y==65 and z==16:
+                print("Neumatico: Goodyear G32 CARGO")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Camioneta / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Rodar tranquilo, confortable y silencioso. Excelente kilometraje y tracción. Fuerte resistencia a las condiciones rigurosas de los servicios comerciales.")
+            elif x==235 and y==65 and z==17:
+                print("Neumatico: Goodyear Wrangler SUV")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Camioneta / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Mejor adherencia en piso mojado. Kilometraje y ahorro de combustible.")
+            elif x==245 and y==75 and z==16:
+                print("Neumatico: Goodyear Wrangler Armortrac")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Camioneta / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Mejor desempeño en piso mojado. Kilometraje y resistencia en condiciones de carretera y todo terreno.")
+            elif x==255 and y==70 and z==18:
+                print("Neumatico: Goodyear Wrangler Adventure")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Camioneta / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Láminas en tacos y hombros que proporcionan mayor capacidad de enfriamiento y superior alcance en kilometroje. Surcos longitudinales y transversales para mejor desalojo de agua y limpieza de barro y piedras, permitiendo un mejor desempeño en todo tipo de terreno.")
+            elif x==265 and y==65 and z==17:
+                print("Neumatico: Goodyear Wrangler Duratrac")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Camioneta / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Mayor tracción: gracias a la tecnología TractiveGroove™, que consiste en pequeños dientes de sierra en la base de los surcos para mejorar la tracción en lodo profundo. Rodar silencioso: Bloques centrales altamente angulados que aumentan la tracción y la estabilidad lateral y reducen el ruido externo.")
+            elif x==215 and y==70 and z==14:
+                print("Neumatico: Goodyear G32 PLUS")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$ / Camioneta / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Mejor rendimiento en curvas y frenado. Resistencia a impactos y temperatura elevadas.")
+            elif x==235 and y==60 and z==18:
+                print("Neumatico: Goodyear Wrangler HP All Weather")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Camioneta / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Las acanaladuras de la banda de rodadura aseguran la rápida dispersión del agua, lo que ayuda a mantener un control óptimo sobre mojado.")
+            elif x==205 and y==40 and z==16:
+                print("Neumatico: Goodyear Wrangler AT/S")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Camioneta / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Su diseño profundo en la parte exterior de los hombros y amplios bloques laterales ofrecen una adecuada protección para el costado. Diseño de la banda de rodamiento optimizado para brindar un rodar suave y proveer un desgaste parejo.")
+
+        #Siguiente
+
+            elif x==205 and y==55 and z==16:
+                print("Neumatico: Goodyear Assurance")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Clase/Tipo: Assurance / Página de compra: https://www.goodyear.com.pe/llantas ")
+                print(s)
+                print("Adicional: Grandes surcos laterales en la banda de rodamiento que ayudan a evacuar el agua para un excelente agarre en mojado. 16% mayor vida de la banda de rodamiento debido a un diseño optimizado de la llanta.")
+
+        #Siguiente
+
+            elif x==255 and y==44 and z==19:
+                print("Neumatico: Goodyear Eagle F1 Asymmetric 2 ROF") 
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Clase/Tipo: Eagle / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Menor consumo de combustible La mayor eficiencia del consumo de combustible le ayuda a reducir gastos y a minimizar las emisiones CO2, lo que es bueno para su bolsillo y para el medio ambiente.")
+            elif x==225 and y==45 and z==17:
+                print("Neumatico: Goodyear Eagle F1 Asymmetric 3")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Clase/Tipo: Eagle / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: La tecnología ActiveBraking proporciona mayor contacto de la llanta con el suelo en el frenado. Estructura reforzada que garantiza mayor precisión en la dirección y durabilidad.")
+            elif x==255 and y==40 and z==19:
+                print("Neumatico: Goodyear Eagle F1 Asymmetric 2")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Clase/Tipo: Eagle / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: La tecnología ActiveBraking proporciona mayor contacto de la llanta con el suelo en el frenado.")
+            elif x==225 and y==40 and z==18:
+                print("Neumatico: Goodyear Eagle F1 Asymmetric")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Clase/Tipo: Eagle / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Conducción de alto rendimiento. Obtenga un mayor rendimiento de su coche de alta potencia. El compuesto de sílice de la superficie mejora el agarre para una maniobrabilidad fiable sobre calzadas secas y mojadas.")
+            elif x==245 and y==45 and z==19:
+                print("Neumatico: Goodyear Excellence ROF")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Clase/Tipo: Eagle / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Creada con compuesto especial de polimero, Excellence brinda una excepcional adherencia y agarre en curvas, con menor distancia de frenado.")
+
+        #Siguiente
+
+            elif x==255 and y==70 and z==18:
+                print("Neumatico: Goodyear Wrangler All-Terrain Adventure")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Clase/Tipo: Wrangler / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: 37 por ciento superior en tracción en piso mojado. Agilidad en terrenos difíciles (barro, arena y piedra).")
+            elif x==265 and y==85 and z==16:
+                print("Neumatico: Goodyear Wrangler MT/R Kevlar")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Clase/Tipo: Wrangler / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Insuperable agarre en caminos Off-Road y lluvia. Compuesto de sílica en la banda de rodamiento que proporciona mayor tracción. Extraordinaria tracción en lodo, grava y caminos rocosos. Costado especial de la llanta con un agresivo dibujo que brinda tracción lateral.")
+            elif x==215 and y==70 and z==16:
+                print("Neumatico: Goodyear Wrangler SUV")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Clase/Tipo: Wrangler / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Mejor adherencia en piso mojado. Kilometraje y ahorro de combustible.")
+            elif x==245 and y==70 and z==16:
+                print("Neumatico: Goodyear Wrangler Armortrac")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Clase/Tipo: Wrangler / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Mejor desempeño en piso mojado. Kilometraje y resistencia en condiciones de carretera y todo terreno.")
+            elif x==235 and y==70 and z==16:
+                print("Neumatico: Goodyear Wrangler Adventure")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Clase/Tipo: Wrangler / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Construcción reforzada en el costado con Durawal TechnologyTM  que proporciona  mayor resistencia a cortes y perforaciones. Láminas en tacos y hombros que proporcionan mayor capacidad de enfriamiento y superior alcance en kilometroje.")
+            elif x==275 and y==55 and z==18:
+                print("Neumatico: Goodyear Wrangler Duratrac")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Clase/Tipo: Wrangler / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Rodar silencioso: Bloques centrales altamente angulados que aumentan la tracción y la estabilidad lateral y reducen el ruido externo.")
+            elif x==275 and y==70 and z==16:
+                print("Neumatico: Goodyear Wrangler HP All Weather")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Clase/Tipo: Wrangler / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Rodar suave y confortable. Mayor poder de tracción en pisos secos o mojados.")
+            elif x==205 and y==80 and z==16:
+                print("Neumatico: Goodyear Wrangler AT/S")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Clase/Tipo: Wrangler / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Excelente tracción en todo tipo de terreno gracias a sus canales autolimpiantes que permiten una mejor evacuación del agua y barro. Su diseño profundo en la parte exterior de los hombros y amplios bloques laterales ofrecen una adecuada protección para el costado.")
+
+        #Siguiente
+
+            elif x==255 and y==60 and z==17:
+                print("Neumatico: Goodyear EfficientGrip Performance SUV")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Clase/Tipo: Efficient / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Desarrollado con la tecnología Fuel Saving, que proporciona ahorro de combustible. Ofrece un desempeño hasta 30 % mejor en maniobrabilidad y 15 porciento superior en tracción y frenado en piso mojado.")
+            elif x==205 and y==60 and z==16:
+                print("Neumatico: Goodyear EfficientGrip Performance")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Clase/Tipo: Efficient / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Compuesto de banda de rodamiento desarrollado para optimizar la adherencia en pisos secos y mojados.")
+            elif x==205 and y==65 and z==16:
+                print("Neumatico: Goodyear EfficientGrip")
+                print(x,"/",y,"R",z)
+                s=("Precio 70$-140$ / Clase/Tipo: Efficient / Página de compra: https://www.goodyear.com.pe/llantas")
+                print(s)
+                print("Adicional: Con estructura liviana y compuesto avanzado de banda, EfficientGrip necesita menos energía para rodar. Disfruta viajes más silenciosos gracias al diseño de los bloques que reduce los niveles de ruido. Economiza combustible con EfficientGrip, con la tecnología FuelSaving.")
+
+            else:
+                print("Lo sentimos, no existen ejemplares de las medidas deseadas.")
+
+            if x<=500 and y<=500 and z<=500:
+                break
